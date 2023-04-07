@@ -1,0 +1,158 @@
+// What affects DX9WARE
+________________________________________________________________________________________________
+
+Rivatuner (UI not showing)
+Norton (Crashing)
+Malwarebytes (Crashing?)
+Riot Vanguard (Delays the injection?)
+Killer Ethernet (Crashing?) (I don't really know why and how these affect dx9ware yet)
+
+// Pastes 
+________________________________________________________________________________________________
+
+1. Resetting (Your PC) is the only solution to long load times
+
+2. Hold win + r, type %appdata%dx9ware then click ok and screenshot.
+
+3. Open control panel > Programs and features and take a screenshot of the program list.
+
+4. https://developers.google.com/speed/public-dns/docs/using [Google DNS]
+
+5. How do I hide my DX9WARE showing up in my recordings? (For Medal)
+
+1. Close medal entirely
+2. Then open Roblox.
+3. Now inject DX9WARE.
+4. Now launch medal and start clipping.
+
+
+6. Provide the email address used to buy DX9WARE and or the order id. If DX9WARE was gifted to you, provide the DX9WARE key if possible.
+Provide Roblox account names that you've used DX9WARE with.
+Provide the discord id of the discord account you want to transfer to.
+sit patiently and wait for an admin **(not me)** to do their thing
+
+*Example :
+david@gmail.com
+COI-0000000000
+DX9david, DX9NINE
+852173034148462633*
+
+7. Using account/alt managers will prohibit DX9WARE from injecting, so don't use one.
+
+8. Using RESHADE Or any other drawing api, such as FPS Counters will make streamproof not work.
+
+9. Open the OBS app, Start Virtual Camera, go to discord, Settings, Voice & Video and change your camera to OBS Virutal Camera, Apply the steps for OBS Streamproof (Game Capture), After that flip your Source Horizontally else it's gonna be mirrored, to do so, Right click Game Capture > Transform > Flip Horizontal then open your camera on discord and it should fix.
+
+10. Programs like rivatuner and afterburner overlays may hide DX9WARE, make sure you don't have anything like that on your pc, if you don't and it still happens then go to Settings > System > Display > Advanced Scaling Settings > Let Windows try to fix apps so they're not blurry and make sure it's disabled.
+
+11. DX9WARE Works best when it's the only exploit attached. Might not inject at all if another exploit is attached.
+
+12. Killer software/some startup items may block DX9WARE from properly injecting . Go to msconfig, services tab and cycle through non-windows services
+
+13. To use a config from the library go to %appdata%/dx9ware, make a new folder and name it anything then extract the ZIP file inside of it.
+
+14. https://youtu.be/jUFNztmuQvs [Roblox Instalation Folder]
+
+15. Client modifications, for example alt-enter or roshade are not supported and it will prevent injection.
+
+16. you will have to disable the iGPU for DX9WARE to inject. To do so, go to devuce manager, display adapters, look for Intel UHD Graphics and select disable device. Disabling, Injecting then re-enabling it is a temporary solution. You might get an invalid whiteist error, in which case you have to follow https://cultofintellect.com/dx9ware/docs/DX9WARE/FAQ/CommonIssues/invalid-whitelist.html
+
+// Fixes
+________________________________________________________________________________________________
+
+1.Person doesn't get dmed the ticket link when muted
+
+Solution: https://cultofintellect.com/createTicket/?discordid=[USER ID]
+
+2. The user is getting the "cannot allocate memory" error
+
+Solution : Re inject multiple times
+
+3. User's dx9ware is unable to attach to process (Provided in the FAQ)
+
+Solution: https://cultofintellect.com/dx9ware/docs/DX9WARE/FAQ/SoftwareInquries/Cannot%20Attach%20to%20Process%20Error.html
+
+4. The user's aimbot is offset when they enable wallcheck
+
+Solution: Go to Windows Settings > Display and tell them to change the Scale Percentage to 100%
+
+5.The user's aimbot is not working
+
+Solution 1: 
+
+Aimlock method (Set it to hotkey as Auto cdoesn't work on third person)
+- Aim assist (Disable it)
+- Silent Aim (Disable it.)
+- Which aimlock key they are using (Show them that they need to hold that key)
+
+--
+
+Solution 2: https://www.youtube.com/watch?v=C6wBE2yrRoQ (Nothing works, ESP or Aimbot)
+
+--
+
+Solution 3: Their entire DX9WARE broke, reinstall it (delete the dx9ware folder)
+
+6."Bad Image" Error
+
+Solution: Check for antiviruses and give the user your DX9WARE dll to see if it fixes.
+
+7. Constant S12 Errors
+
+(POTENTIAL) Solution: Disable VPNs and Disable HWID spoofers.
+
+8. DX9WARE is crashing after logging in
+
+Solution: Disable their anti virus (If they have Norton Mcafee or Avast, ask them to uninstall it for testing)
+
+9. DX9WARE CRASHING AFTER THE THIRD CONSOLE
+
+Solution: 
+If the console is empty with yellow letters, refer to this https://github.com/DX9david/DX9WARE-Troubleshooting/blob/main/DX9WARE%20blank%20third%20window.md
+
+Solution 2:
+
+Make sure they do not have any other exploits with auto attach features
+
+Intel 12th gen igpu can cause crashes, turn it off in device manager
+
+(Potetinal) Solution: Open task manager > startup and disable all
+
+Solution 3: 
+Step 1 Run Windows in safe mode (If dx9ware works in safe mode then it means a service is preventing access)
+Step 2 Open the msconfig, click services, check the checkbox and turn off anything that's extra
+
+10. The third injection window shows yellow letters only
+
+Solution 1: Reinstall Roblox, they may have ClientSettings or other modifications in their Roblox folder. To check, ask them to send a screenshot of their Roblox installation folder https://youtu.be/jUFNztmuQvs
+
+Solution 2: Check if they have any other exploits like Synapse X or Script-Ware (executors) and disable Auto Attach and Auto Launch.
+
+11. DX9WARE Stuck to downloading
+
+Solution: 
+Go to "Network and Internet", Scroll down and you'll find "Network Reset"
+
+12. DX9WARE injection is delayed
+Solution 1 (Worked once) :
+
+Browse to %localappdata% Delete the Roblox folder.
+
+Browse to %appdata%\dx9ware Delete dx9ware.dll
+
+Solution 2 (Works more than you'd expect it to) : Inject like 30 times lmfao (i am for real) (99% success rate?)
+
+Solution 3 (Good one) : Change your DNS (good success rate)
+
+Solution 4 : Restart PC (At this point you're just waiting their time but sometimes it works lmfao)
+
+Solution 5 (hot solution) : Inject multiple times, around 10 times and it might show up
+
+13. S12 on every restart
+
+Solution: They need to not change there network adapters or set it to manual not auto change if users have that. its like a firewall when it changes DNS every hour or so.
+
+14. Windows versions 19043.2130 and 19044.2130
+
+Solution: Users that are on versions 19043.2130 and 19044.2130 may provide issues. Make them downgrade for now, to do so make them follow this guide: 
+https://www.howtogeek.com/235474/how-to-roll-back-builds-and-uninstall-updates-on-windows-10/
