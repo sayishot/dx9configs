@@ -67,6 +67,27 @@ COI-0000000000
 DX9david, DX9NINE
 852173034148462633 "
 
+----------------------------------------------------
+
+
+"It keeps saying im using the wrong roblox version or its incorrect"
+
+"
+Sometimes Roblox may give you a custom Roblox version due to them testing/pre-releasing an update on Roblox, this should be an easy fix on the browser end to prevent this issue:
+note: there is no possible fix for private servers at the moment, the fix mainly works for public servers. will i ever find a fix for it? nope i’m not going to. 
+
+1. Install a UserScript Manager (for most browsers: ViolentMonkey, https://violentmonkey.github.io/get-it/ > Click browser you have under Stable Release > Install > follow next steps)
+2. Open the following link inside your browser: https://cdn.discordapp.com/attachments/956649076852654122/1087552710410256434/fix_channel_roblox.user.js
+3. Click Confirm Installation > then click Close
+4. After it has installed you will need to Reinstall Roblox and reopen any Roblox browser tabs (If you are struggling some Roblox guides have been linked below)
+
+==
+
+Reinstalling Roblox: https://en.help.roblox.com/hc/en-us/articles/203312910-How-Do-I-Reinstall-the-ROBLOX-Software-
+Using Userscripts (Safari): https://apps.apple.com/us/app/userscripts/id1463298887 | (https://github.com/quoid/userscripts#usage)
+Using ViolentMonkey: https://violentmonkey.github.io/guide/creating-a-userscript/
+"
+
 
 ----------------------------------------------------
 "i put the wrong user id"
